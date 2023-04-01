@@ -1,0 +1,49 @@
+.grid-container{
+    background-color: #FFFFFF;
+    align-content: center;
+    
+    max-width: 600px;
+    max-height: 600px;
+    justify-items: left;
+    padding-left: 20px;
+    display: grid;
+    grid-template-rows: 110px 100px 100px 100px;
+    grid-template-columns: 600px;
+}
+
+.username-input-container {
+    display: table;
+    grid-template-rows: 50px 25px;
+    text-align: left;
+    font-size: 18px;
+    grid-gap: 0px;
+}
+
+.a-form-label {
+    max-height: 30px;
+    font-weight: 700;
+  
+}
+
+.user-input {
+    margin-top: 5px;
+    height: 25px;
+    width: 100%;
+}
+
+.register-login-container {
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.login-button{
+    padding: 20px 20px;
+    background-color: #9e7b57;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
